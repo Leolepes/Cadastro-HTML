@@ -5,31 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./cadastro.css">
     <title>Exerccício HTML</title>
 </head>
 <body>    
     <h1>Cadastro de DEVs</h1>
-    <h2>Complete suas informações</h2>
+    <h2><span>Complete</span> suas informações</h2>
    
    <form>
-        <fieldset>
-        <div>
+        <fieldset >
+            <div>
             <label>Nome</label>
             <input type="text" name="nome" id="nome" placeholder="Escreva seu nome..." required> 
             <br>
             <label>Sobrenome</label>
             <input type="text" name="nome" id="nome" placeholder="Escreva seu sobrenome..." required> 
-            
-        </div>
-        <div>
-        
+            </div>
+            <div>
         </fieldset>
-
-     <br>
+        <br>
         <label>Email</label>
         <input type="email" name="email" id="email" placeholder="Escreva seu email..." >
-     </div>
-
+        </div>
         <div>
         <label>De qual lado da aplicação você atua?</label>
         <label>Front-End</label>
@@ -50,8 +47,7 @@
                 <option>Senior</option>
             </select>
         </fieldset>
-     </div>
-
+        </div>
         <div>
         <br>
         <label>Selecione as Tecnologias que você utiliza</label>
@@ -64,22 +60,11 @@
         <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Python">
         <label for="tecnologia4">C#</label>
         <input type="checkbox" id="tecnologia4" name="tecnologia4" value="C#">
-     </div>
-     
-       <strong><p><label>Conte um pouco sobre você</strong></p>
-            <p><textarea name="mensagem" id="mensagem" placeholder="Fale mais sobre você aqui..." cols="30" rows="10" required=""></textarea>
+        </div>
+        <strong><p><label>Conte um pouco sobre você</strong></p>
+        <p><textarea name="mensagem" id="mensagem" placeholder="Fale mais sobre você aqui..." cols="30" rows="10" required=""></textarea>
         </label>
-        
-
         <button type="submit" required="">Concluído</button>
-        
     </form>
-
-
-
-
-
-
-    
 </body>
 </html>
